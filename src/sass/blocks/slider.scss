@@ -1,0 +1,65 @@
+/* slider */
+#slider-home {
+  font-family: 'BebasNeue';
+  position: relative;
+  z-index: 100;
+  padding-top: 180px;
+  overflow:hidden;
+  text-align:center;
+  color:#fff;
+}
+
+#slider-home h1 {
+  font-size: 50px;
+  line-height: 50px;
+  text-shadow: none;
+  color: #fff;
+  display: block;
+}
+#slider-home h1>em {
+  font-style:normal;
+  color:#1EB7B1;
+}
+#slider-home .cycle-slider {
+  margin-bottom:60px;
+}
+#slider-home .cycle-slider>.slide {
+  width:100%;
+  text-align:center !important;
+}
+
+
+#slider-feedback {
+
+   #prev {
+    position: relative;
+    z-index: 100;
+
+    position: absolute;
+    top: 30%;
+    left: 0;
+
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    color: lime;
+    background-image: url("../img/ico--next.svg");
+    transform: rotate(180deg);
+  }
+ #next {
+    position: relative;
+    z-index: 100;
+
+    position: absolute;
+    top: 30%;
+    left: 90%;
+
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    color: lime;
+    background-image: url("../img/ico--next.svg");
+  }
+}

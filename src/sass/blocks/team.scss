@@ -1,0 +1,31 @@
+.member {
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    font-family: 'BebasNeue';
+    font-size: 28px;
+    &--colored {
+
+    }
+  }
+
+  &__position {
+    margin-bottom: 20px;
+
+    font-family: 'BebasNeue';
+    font-size: 18px;
+    &--colored {
+
+    }
+  }
+
+  &__phone {
+    font-size: 18px;
+  }
+
+  &__feedback {
+
+  }
+}

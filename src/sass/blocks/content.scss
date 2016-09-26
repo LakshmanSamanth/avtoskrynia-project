@@ -1,0 +1,51 @@
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  text-align: center;
+
+  color: #000;
+  background-color: #f5f5f5;
+  &--colored {
+    background-color: $dark;
+    color: #fff;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 80px;
+
+    font-family: 'BebasNeue';
+    font-size: 50px;
+
+    color: #050505;
+    &--colored {
+      color: #fff;;
+    }
+  }
+
+  &__title > span {
+    color: #d12f22;
+  }
+
+  &__text {
+    font-size: 16px;
+    &--about {
+      margin-bottom: 20px;
+      text-align: justify ;
+    }
+  }
+
+  &--graybg {
+    padding-top: 0px;
+
+    background-color: $gray-soft;
+  }
+
+}
+
+.gallery {
+  margin-bottom: 80px;
+}
+
+
