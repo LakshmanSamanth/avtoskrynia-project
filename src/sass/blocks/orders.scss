@@ -1,0 +1,39 @@
+.orders {
+  &__item {
+    position: relative;
+    margin-bottom: 20px;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 152px;
+
+      display: block;
+      width: 50px;
+      height: 50px;
+
+      background-image: url("../img/ico--arrow-right.svg");
+    }
+  }
+
+  &__item--noarrow {
+     &:after {
+      display: none;
+     }
+  }
+
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-size: 14px;
+  }
+}
+
+
+.orders > .row > .col-md-2:last-child > .orders__item {
+  &:after {
+    display: none;
+  }
+}

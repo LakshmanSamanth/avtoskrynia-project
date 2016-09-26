@@ -1,12 +1,10 @@
-// @include font-face("PTSans", "../fonts/PTSans", 400, normal, eot woff2 woff ttf svg);
-
-// @font-face {
-//   font-family: 'Gotham';
-//   src:  url('../font/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
-//         url('../font/GothamPro-Medium.otf') format('opentype'),
-//         url('../font/GothamPro-Medium.woff') format('woff'),
-//         url('../font/GothamPro-Medium.ttf') format('truetype'),
-//         url('../font/GothamPro-Medium.svg#font/GothamPro-Medium') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/AA-BebasNeue.eot');
+  src: url('../fonts/AA-BebasNeue.woff2') format('woff2'),
+       url('../fonts/AA-BebasNeue.woff') format('woff'),
+       url('../fonts/AA-BebasNeue.ttf') format('truetype'),
+       url('../fonts/AA-BebasNeue.svg#ralewayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

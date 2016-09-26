@@ -1,0 +1,81 @@
+// .location {
+//     line-height: 30px;
+//     margin-bottom: 30px;
+//     // background-image: url("../img/icon__map.svg");
+//     // background-position: left top;
+//     background-repeat: no-repeat;
+//     background-size: 35px;
+
+//     &__city {
+//         display: block;
+//         color: #d12f22;
+//         font-size: 32px;
+//         text-transform: uppercase;
+//     }
+
+//     &__link {
+//         color: #fff;
+//         font-size: 20px;
+//         border-bottom: dashed 1px #fff;
+//         transition: all .25s;
+//         &:hover {
+//             border-bottom: transparent dashed 1px;
+//             color: #fff;
+//         }
+//     }
+// }
+
+.location {
+
+  &__city {
+    display: block;
+
+    font-family: 'BebasNeue';
+    font-size: 46px;
+    text-transform: uppercase;
+
+    color: #d12f22;
+  }
+
+  &__street {
+    margin-bottom: 20px;
+
+    font-family: 'BebasNeue';
+    font-size: 20px;
+
+    color: #fff;
+  }
+}
+
+.schedule {
+  margin-bottom: 30px;
+
+  color: #fff;
+
+  &__headline {
+    color: #d12f22;
+  }
+
+  &__hours {
+    margin: 0;
+  }
+}
+
+.phone {
+  margin-bottom: 30px;
+
+  &__number {
+    display: block;
+
+    color: #fff;
+
+    transition: all .25s;
+    &:hover {
+      color: #d12f22;
+    }
+  }
+}
+
+.map {
+  float: right;
+}

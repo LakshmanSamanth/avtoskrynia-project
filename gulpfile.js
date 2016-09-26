@@ -74,7 +74,7 @@ gulp.task("images", function() {
 });
 
 gulp.task("fonts", function() {
-  gulp.src("src/fonts/**/*.{ttf,woff,woff2}")
+  gulp.src("src/fonts/**/*.*")
     .pipe(gulp.dest("build/fonts"))
 });
 

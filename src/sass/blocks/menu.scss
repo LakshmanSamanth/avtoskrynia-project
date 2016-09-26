@@ -1,0 +1,80 @@
+#menu {
+  margin-top: 50px;
+
+  .active a {
+    color: $red;
+  }
+
+  a {
+    padding: 20px 20px 20px 25px;
+
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    transition: all .55s ease-out;
+    &:hover,
+    &:focus {
+      color: $red;
+
+      background-color: transparent;
+    }
+    &:before {
+      position: absolute;
+
+      margin-left: -28px;
+
+      font-family: fontAwesome;
+      font-size: 20px;
+
+      content: "\f015";
+    }
+  }
+
+  li:nth-child(2) a {
+    &:before {
+      content: "\f298";
+
+      font-family: fontAwesome;
+    }
+  }
+
+  li:nth-child(3) a {
+    &:before {
+      content: "\f085";
+
+      font-family: fontAwesome;
+    }
+  }
+
+  li:nth-child(4) a {
+    &:before {
+      content: "\f0c0";
+
+      font-family: fontAwesome;
+    }
+  }
+
+  li:nth-child(5) a {
+    &:before {
+      content: "\f095";
+
+      font-family: fontAwesome;
+    }
+  }
+
+}
+
+#navigation {
+  transition: all .3s ease-out;
+}
+// Style for navigation when user scrolled
+#navigation.scrolled {
+  padding-bottom: 50px;
+  background: $dark;
+  opacity: 0.95;
+    // border-bottom: 1px solid #b9c4cC;
+}
+// Style for navigation when user scrolled
