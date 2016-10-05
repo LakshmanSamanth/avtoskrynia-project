@@ -77,7 +77,6 @@
     }
   }
 
-    // Navigation Style Start
   #navigation {
     padding-bottom: 45px;
 
@@ -92,6 +91,10 @@
     a:before {
       display: none;
     }
+  }
+
+  .navbar-collapse {
+    box-shadow:none;
   }
 
   .content {

@@ -40,7 +40,7 @@
   <![endif]-->
   <!-- Scripts End -->
 </head>
-<body data-spy="scroll" data-target="#navigation" data-offset="170">
+<body class="main-page" data-spy="scroll" data-target="#navigation" data-offset="170">
   <!--[if lt IE 8]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
@@ -55,7 +55,11 @@
   <div id="navigation" class="navbar navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button class="navbar-toggle btn--toggler" data-toggle="collapse" data-target="#menu"><span></span></button>
+
+        <button type="button" class="navbar-toggle btn--toggler" data-toggle="collapse" data-target="#menu">
+                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+        </button>
+
         <a class="navbar-brand scrollto logo" href="#home">
           <img class="logo__image hidden-sm hidden-xs" src="img/logo.png" width="220" height="99" alt="Автоскриня">
           <img class="logo__image--mobile visible-sm visible-xs" width="150" height="58" src="img/logo.png" alt="Автоскриня">
@@ -383,6 +387,7 @@
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="libs/jquery.cycle2.min.js"></script>
   <script src="libs/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.js"></script>
   <script src="js/app.min.js"></script>
 </body>
 </html>
