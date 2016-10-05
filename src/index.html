@@ -9,7 +9,7 @@
   <!-- <base href="http://avtoskrynia.com.ua/"> -->
   <meta name="description" content="Автозапчастини для іномарок. Автозапчастини купити Чернівці">
   <meta property="og:description" ccontent="Автозапчастини для іномарок. Автозапчастини купити Чернівці">
-  <meta name="keywords" content= "Автозапчастини, Автоскриня, купити масло, купитb автозапчастини б/у BMW Чернівці">
+  <meta name="keywords" content= "Автозапчастини, Автоскриня, купити масло, купити автозапчастини б/у BMW Чернівці">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="robots" content="index, follow">
   <!-- Title and Meta Tags End -->
@@ -26,7 +26,6 @@
   <link href="css/style.min.css" rel="stylesheet">
   <link href="libs/magnific-popup.css" rel="stylesheet">
   <link href="libs/animate.css" rel="stylesheet">
-
     <!-- CSS End -->
 
   <!-- Fonts Start -->
@@ -56,11 +55,10 @@
   <div id="navigation" class="navbar navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </button>
-        <a class="navbar-brand scrollto" href="#home">
-          <img src="img/logo.png" alt="Автоскриня">
+        <button class="navbar-toggle btn--toggler" data-toggle="collapse" data-target="#menu"><span></span></button>
+        <a class="navbar-brand scrollto logo" href="#home">
+          <img class="logo__image hidden-sm hidden-xs" src="img/logo.png" width="220" height="99" alt="Автоскриня">
+          <img class="logo__image--mobile visible-sm visible-xs" width="150" height="58" src="img/logo.png" alt="Автоскриня">
         </a>
       </div>
       <nav  class="collapse navbar-collapse navbar-right" id="menu">
@@ -89,16 +87,18 @@
   <!-- Start Header -->
   <header id="home" class="header">
 
-    <div id="slider-home">
+    <h1 class="header__title visible-xs"><span>"Автоскриня"</span> <br> сучасний магазин автозапчастин</h1>
+<!--     <div id="slider-home">
       <div class="container">
+            <h1><span>"Автоскриня"</span> <br> сучасний магазин автозапчастин</h1> </div>
           <div class="cycle-slider animated fadeInUp" data-timeout="4000" data-delay="1000" data-speed="1000">
-            <!-- <div class="slide"> <h1>Сучасний магазин автозапчастин</h1> </div> -->
-            <!-- <div class="slide"> <h1>Широкий вибір ассортименту!</h1> </div> -->
+            <div class="slide"><h1><span>"Автоскриня"</span> <br> сучасний магазин автозапчастин</h1> </div>
+            <div class="slide"> <h1>Широкий вибір ассортименту!</h1> </div>
           </div>
-          <!-- <a href="#"><span id="prev">Prev</span></a> -->
-          <!-- <a href="#"><span id="next">Next</span></a> -->
+          <a href="#"><span id="prev">Prev</span></a>
+          <a href="#"><span id="next">Next</span></a>
       </div>
-    </div>
+    </div> -->
 
   </header>
   <!-- End Header -->
@@ -117,7 +117,7 @@
           <div class="col-md-4">
             <div class="services__item">
               <img class="services__image" src="img/ico--selection.svg" width="130" alt="Автоскриня">
-              <p class="services__text">Підбір та замовлення єксклюзивних автозапчатин</p>
+              <p class="services__text">Підбір та замовлення ексклюзивних автозапчатин</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -198,20 +198,26 @@
       <p class="content__text content__text--about">Ми постійно самовдосконалюємся та пристосовуємся до нових умов на ринку продажу автозапчастин, поповнюємо та осучаснюємо асортимент. При цьому не забуваємо про старші надійні авто європейських, американських та азійських виробників. Переконані, що наша стабільна якісна робота з продажу автозапчастин в м.Чернівці доводить наш професіоналізм та є очевидною для людей, що мали і маютьз нами справу. Надалі будем щиро старатись для Вас, ставати кращими, вдосконалюватись, рости з Вашою допомогою, наші шановні клієнти!</p>
       <div class="gallery">
         <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-4">
+            <div class="gallery__item">
             <a class="lightbox" href="img/photo--4.jpg" data-plugin-options='{"type":"image"}'>
-              <img class="img-responsive fullwidth" src="img/photo--4.jpg" width="360" alt=""><!-- thumb -->
+              <img class="img-responsive fullwidth gallery__image" src="img/photo--4.jpg" width="360" alt=""><!-- thumb -->
             </a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-4">
+            <div class="gallery__item">
             <a class="lightbox" href="img/photo--2.jpg" data-plugin-options='{"type":"image"}'>
-              <img class="img-responsive fullwidth" src="img/photo--2.jpg" width="360" alt=""><!-- thumb -->
+              <img class="img-responsive fullwidth gallery__image" src="img/photo--2.jpg" width="360" alt=""><!-- thumb -->
             </a>
+            </div>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-md-4 col-sm-4">
+            <div class="gallery__item">
             <a class="lightbox" href="img/photo--4.jpg" data-plugin-options='{"type":"image"}'>
-              <img class="img-responsive fullwidth" src="img/photo--4.jpg" width="360" alt=""><!-- thumb -->
+              <img class="img-responsive fullwidth gallery__image" src="img/photo--4.jpg" width="360" alt=""><!-- thumb -->
             </a>
+            </div>
           </div>
         </div>
       </div>
@@ -319,8 +325,8 @@
           </div>
 
         </div>
-        <a class="left" href="#"><span id="prev"></span></a>
-        <a class="right" href="#"><span id="next"></span></a>
+        <!-- <a class="left" href="#"><span id="prev"></span></a> -->
+        <!-- <a class="right" href="#"><span id="next"></span></a> -->
       </div>
       </div>
     </div>
@@ -357,7 +363,7 @@
             </div>
           </div>
           <div class="col-md-9">
-            <div class="map">
+            <div class="map hidden-xs">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d663.9654999527432!2d25.957280056406688!3d48.267030184194056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x995985ac03ed7e11!2z0JDQstGC0L7RgdC60YDQuNC90Y8gLSDQvNCw0LPQsNC30LjQvSDQsNCy0YLQvtC30LDQv9GH0LDRgdGC0LjQvQ!5e0!3m2!1sru!2s!4v1475002939102" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
@@ -368,11 +374,7 @@
 
   <footer class="footer">
     <div class="container">
-
-        <div class="col-md-7 col-md-offset-3">
-          <div class="footer__copyright">Автоскриня © 2016 | Всі права захищено | Розробка Artem Karachevtsev</div>
-        </div>
-
+      <div class="footer__copyright">Автоскриня © 2016 <br> Всі права захищено <br> Розробка Artem Karachevtsev</div>
     </div>
   </footer>
 

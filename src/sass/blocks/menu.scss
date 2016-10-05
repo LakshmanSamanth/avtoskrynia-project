@@ -1,6 +1,8 @@
 #menu {
   margin-top: 50px;
 
+  transition: all .3s ease-out;
+
   .active a {
     color: $red;
   }
@@ -70,11 +72,15 @@
 #navigation {
   transition: all .3s ease-out;
 }
-// Style for navigation when user scrolled
-#navigation.scrolled {
-  padding-bottom: 50px;
+.scrolled {
+  padding-bottom: 25px;
+
+  background: $dark;
+
+  opacity: 0.95;
+}
+
+.overlay {
   background: $dark;
   opacity: 0.95;
-    // border-bottom: 1px solid #b9c4cC;
 }
-// Style for navigation when user scrolled
