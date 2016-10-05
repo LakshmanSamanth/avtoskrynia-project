@@ -5,6 +5,7 @@
 @import "global/buttons";
 @import "global/forms";
 @import "global/base";
+@import "blocks/preloader";
 @import "blocks/header";
 @import "blocks/logo";
 @import "blocks/menu";
@@ -14,4 +15,8 @@
 @import "blocks/orders";
 @import "blocks/team";
 @import "blocks/contacts";
-@import "blocks/footer"
+@import "blocks/gallery";
+@import "blocks/footer";
+
+@import "media/media";
+@import "blocks/toggler";

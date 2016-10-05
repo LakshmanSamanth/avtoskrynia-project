@@ -1,0 +1,68 @@
+.btn--toggler {
+  margin-top: 35px;
+
+  span,
+  span:before,
+  span:after {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    background-color: #ffffff;
+    width: 35px;
+    height: 2px;
+  }
+
+  span {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 13.33333333px;
+  }
+
+  span:before,
+  span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+
+  span:before {
+    top: -13.33333333px;
+  }
+
+  span:after {
+    top: 13.33333333px;
+  }
+}
+
+.btn--toggler.active span {
+  background-color: transparent;
+}
+
+.btn--toggler.active span:before,
+.btn--toggler.active span:after {
+  top: 0;
+}
+
+.btn--toggler.active span:before {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+}
+
+.btn--toggler.active span:after {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+}
+
