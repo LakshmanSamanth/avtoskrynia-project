@@ -14,9 +14,7 @@ $(document).ready(function() {
     if ($(window).scrollTop()< 10) {
       $('#navigation').removeClass('scrolled');
     }
-    if ($(window).scrollTop()< 40) {
-      $('#navigation').removeClass('overlay');
-    }
+
     else{
       $('#navigation').addClass('scrolled');
     }
@@ -37,12 +35,7 @@ $(document).ready(function() {
 
   $('.btn--toggler').click( function() {
     $(this).toggleClass('active');
-    if ($('.btn--toggler').hasClass('active')) {
-      $('#navigation').addClass('overlay');
-    }
-    else {
-      $('#navigation').removeClass('overlay')
-    };
+      $('#navigation').addClass('scrolled');
   });
 
 
