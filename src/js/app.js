@@ -23,7 +23,7 @@ $(document).ready(function() {
   $('a.scrollto').click(function(e) {
       e.preventDefault();
       var target = $(this).attr('href');
-      $('html, body').stop().animate({scrollTop: $(target).offset().top - 120}, 2600, 'easeInOutExpo',
+      $('html, body').stop().animate({scrollTop: $(target).offset().top}, 2600, 'easeInOutExpo',
         function(){window.location.hash = target;});
 
       $(".btn--toggler").removeClass('active');
@@ -38,15 +38,14 @@ $(document).ready(function() {
       $('#navigation').addClass('scrolled');
   });
 
-
-  $('div.cycle-slider').cycle({
-    fx :    'fade',
-    timeout:  parseInt($('div.cycle-slider').attr('data-timeout'))   || 7000,
-    delay:    parseInt($('div.cycle-slider').attr('data-delay'))   || 2000,
-    speed:    parseInt($('div.cycle-slider').attr('data-speed'))   || 1000,
-    slides:   '.slide',
-    prev:    '#prev',
-    next:    '#next'
+  $("div.cycle-slider").cycle({
+    fx: "fade",
+    timeout: parseInt($("div.cycle-slider").attr("data-timeout")) || 7e3,
+    delay: parseInt($("div.cycle-slider").attr("data-delay")) || 2e3,
+    speed: parseInt($("div.cycle-slider").attr("data-speed")) || 1e3,
+    slides: ".slide",
+    prev: "#prev",
+    next: "#next"
   });
 
   if(typeof($.magnificPopup) == "undefined") {
