@@ -4,6 +4,7 @@ build/
 design/
 .vscode/
 .DS_Store
+package-lock.json
 Thumbs.db
 .idea
 .publish
